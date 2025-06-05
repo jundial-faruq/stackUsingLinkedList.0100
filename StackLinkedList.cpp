@@ -36,7 +36,17 @@ class Stack
     public :
         void pop()
         {
-         
+            Node *temp = top;
+            if (isEmpty())
+            {
+                cout << "Stack is empty." << endl;
+                return;
+            }
+
+            cout << "Popped value : " << temp->data << endl;
+            top = temp->next; // update the toppointer to the temp.next
+            delete temp;
+            
         }
 
 };
