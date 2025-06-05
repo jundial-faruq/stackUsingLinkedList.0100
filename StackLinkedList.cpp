@@ -13,6 +13,10 @@ public :
     }
 };
 
+class Stack 
+{
+    
+};
 
 int main()
 {
