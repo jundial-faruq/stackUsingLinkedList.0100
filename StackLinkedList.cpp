@@ -50,9 +50,23 @@ class Stack
             
         }
     private :
+        // Peek/Top operation : Retrieve the value of the topmost
         void peek()
         {
-        
+            if (isEmpty())
+            {
+                cout << "List is Empty." << endl;
+            }
+            else
+            {
+                Node *current = top;
+                while (current != NULL)
+                {
+                    cout << current->data << " " << endl;
+                    current = current->next;
+                }
+                
+            }
         }
 
 };
