@@ -33,7 +33,7 @@ class Stack
             cout << "Push Value : " << value << endl; //
             return value;
         }
-    public :
+        
         //pop operation : remove the topmost element from the elemen
         void pop()
         {
@@ -49,7 +49,7 @@ class Stack
             delete temp;
             
         }
-    private :
+
         // Peek/Top operation : Retrieve the value of the topmost
         void peek()
         {
@@ -102,7 +102,7 @@ int main()
         case 2:
             stack.pop();
             break;
-     
+        
         }
         cout << endl;
     }
