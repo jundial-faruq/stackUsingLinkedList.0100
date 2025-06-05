@@ -34,6 +34,7 @@ class Stack
             return value;
         }
     public :
+        //pop operation : remove the topmost element from the elemen
         void pop()
         {
             Node *temp = top;
@@ -47,6 +48,11 @@ class Stack
             top = temp->next; // update the toppointer to the temp.next
             delete temp;
             
+        }
+    private :
+        void peek()
+        {
+        
         }
 
 };
