@@ -69,6 +69,8 @@ class Stack
             }// Return the value of the top node
         }
 
+    bool isEmpty()
+
 
 };
 
