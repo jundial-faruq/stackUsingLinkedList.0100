@@ -99,7 +99,10 @@ int main()
             cin >> value;
             stack.push(value); // push the entered value onto
             break;
-       
+        case 2:
+            stack.pop();
+            break;
+     
         }
         cout << endl;
     }
